@@ -225,7 +225,7 @@ export default class Input extends Component {
               <br></br>
             </div>
             <div className="text-center">
-              <button className="btn btn-md" type="submit">Submit</button>
+              <button className="btn btn-primary btn-md" type="submit">Submit</button>
             </div>
           </form>
         </div>
