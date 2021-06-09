@@ -54,7 +54,7 @@ export default class CreateField extends Component {
                         <input type="text" className="form-control" required value={this.state.event} onChange={this.onChangeEvent} />
                     </div>
                     <div className="text-center">
-                        <button className="btn btn-primary btn-md" type="submit">Add</button>
+                        <button className="btn btn-md" type="submit">Add</button>
 
                     </div>
                 </form>
