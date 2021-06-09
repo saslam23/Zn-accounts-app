@@ -9,12 +9,20 @@ export default class Login extends Component {
         this.onChangeEmail = this.onChangeEmail.bind(this);
         this.onChangePassword = this.onChangePassword.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
+        this.onReveal = this.onReveal.bind(this);
 
         this.state = {
             email: '',
             password: '',
-            errorMessage: ''
+            errorMessage: '',
+            reveal:false
         }
+    }
+
+    onReveal() {
+        this.setState({
+            reveal:!this.state.reveal
+        })
     }
 
     onChangeEmail(e) {
@@ -91,7 +99,15 @@ export default class Login extends Component {
                                         </div>
 
                                         <button  type="submit" className="main-button col-sm-6">Login</button>
+                                         
                                     </form>
+                                    <button onClick={this.onReveal} style={{marginTop:'2rem'}} className="main-button">Show login creds</button>
+                                    {this.state.reveal ?
+                                        <div style={{border:'1px solid black', marginTop:'1rem', paddingLeft:'5px'}}>
+                                            Email: demo@gmail.com
+                                            <br></br>
+                                            Password: hello
+                                        </div>: null} 
                                     <p>Don't have an account? <Link to="/signup">Sign Up!</Link></p>
                                 </div>
                             </div>
