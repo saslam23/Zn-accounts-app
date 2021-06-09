@@ -203,7 +203,7 @@ export default class Input extends Component {
 
             <div className="container box text-center" id="dropdownMenuButton">
               <span className="currencyinput">$</span> <input
-                style={{ color: 'red' }}
+                style={{ color: '#10adeb' }}
                 className="text-center btn"
                 type="text"
                 placeholder="Amount"
