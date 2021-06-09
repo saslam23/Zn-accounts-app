@@ -93,7 +93,7 @@ export default class Signup extends Component {
                                         <div>
                                             {this.state.errorMessage ? <p className="alert alert-danger">{this.state.errorMessage}</p> : null}
                                         </div>
-                                        <button type="submit" className="btn btn-primary btn-danger col-sm-6"> Sign up! </button>
+                                        <button type="submit" className="main-button col-sm-6"> Sign up! </button>
                                     </form>
                                 </div>
                             </div>

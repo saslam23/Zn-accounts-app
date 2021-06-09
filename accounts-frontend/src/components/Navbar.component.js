@@ -45,7 +45,7 @@ export default class Navbar extends Component {
                             <Link to="/dropdown" className="nav-link">Events</Link>
                         </li>
                     </ul>
-                    <button style={{ color: "white" }} className=" btn-sm btn-danger" onClick={() => this.onSubmitLogout()}>Logout</button>
+                    <button style={{ color: "white", backgroundColor:'#10adeb' }} className=" btn-sm" onClick={() => this.onSubmitLogout()}>Logout</button>
                 </div>
             </nav>
             </div>

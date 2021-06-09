@@ -1,77 +1,85 @@
-
-#dropdown-basic{
+#dropdown-basic {
     color: white;
 }
 
-.dropdown{
+.dropdown {
     background-color: black;
 }
 
-.btn{
-margin-bottom: 10px;
-margin-right: 15px;
-display: flex;
-color: white;
-height: 75px;
-width: 250px;
+.btn {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    display: flex;
+    background-color: #10adeb;
+    color: white;
+    height: 75px;
+    width: 250px;
 
 }
 
-#dropdownMenuButton{
-    color: red;
-    background-color:white;
+#dropdownMenuButton {
+    color: #10adeb;
+    background-color: white;
 
 
 }
 
-.Znlogo{
+.Znlogo {
     width: 60px;
 }
 
 
-::-webkit-input-placeholder{
-    color: red;
+::-webkit-input-placeholder {
+    color: #10adeb;
     font-size: 18pt;
 }
 
 
-input[type="text"]
-{
+input[type="text"] {
     -webkit-user-select: text;
-    font-size:25px;
+    font-size: 25px;
 }
 
 .currencyinput {
     font-size: 20pt;
 }
 
-.box{
+.box {
     padding: 0px 0px 20px 0px;
     width: 200px;
 }
 
-.label{
+.label {
     font-size: 20pt;
+    color: #10adeb;
 }
 
-.grad {
-    background-image: linear-gradient(-90deg, red, rgb(128, 0, 0));
-      
-}
-
-h1{
+h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.login-form {
+    margin-top: 10rem;
+    border: 1px solid black;
+}
+
+.main-button {
+    background-color: #10adeb;
+    color: white;
+    border: none;
+    height: 50px;
+
+}
 
 
 
-@media only screen and (max-width: 539px){
-    .currencyinput{
+
+@media only screen and (max-width: 539px) {
+    .currencyinput {
         display: none;
     }
 
-    .box{
+    .box {
         padding-left: 20px;
     }
 }

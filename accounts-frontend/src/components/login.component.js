@@ -71,9 +71,9 @@ export default class Login extends Component {
                     <br></br>
 
                     <div >
-                        <div className="col-sm-6 card container">
+                        <div className="login-form col-sm-6 container">
                             <div>
-                                <div className="card-body">
+                                <div>
                                     <h1>Login</h1>
 
                                     <form action="/" onSubmit={this.onSubmit}>
@@ -90,7 +90,7 @@ export default class Login extends Component {
                                             {this.state.errorMessage ? <p className="alert alert-danger">{this.state.errorMessage}</p> : null}
                                         </div>
 
-                                        <button type="submit" className="btn btn-danger col-sm-6">Login</button>
+                                        <button  type="submit" className="main-button col-sm-6">Login</button>
                                     </form>
                                     <p>Don't have an account? <Link to="/signup">Sign Up!</Link></p>
                                 </div>
