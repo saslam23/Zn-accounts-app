@@ -80,8 +80,8 @@ export default class TransactionsList extends Component {
             <div>
                 <br></br>
                 <h3 className="text-center">Logged Transactions</h3>
-                <button className=" btn-sm btn-danger btn-outline-light ">
-                    <CSVLink style={{ color: "white", backgroundColor:'#10adeb' }} data={this.state.transactions} headers={headers}> Export </CSVLink>
+                <button style={{backgroundColor:'#10adeb'}} className=" btn-sm btn-outline-light ">
+                    <CSVLink style={{ color: "white" }} data={this.state.transactions} headers={headers}> Export </CSVLink>
                 </button>
                 <table className="table table-striped">
                     <thead className="thead-light">
